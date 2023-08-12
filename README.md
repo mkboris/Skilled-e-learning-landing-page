@@ -23,7 +23,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-
+![](/design/Screenshot.jpeg)
 ### Links
 
 - Solution URL: https://github.com/mkboris/Skilled-e-learning-landing-page
