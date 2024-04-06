@@ -20,82 +20,113 @@
     <title>Frontend Mentor | Skilled e-learning landing page</title>
   </head>
   <body>
-    <main>
+    <header>
       <nav>
-        <img class="nav-logo" src="assets/logo-dark.svg" alt="" />
-        <button class="nav-button">Get Started</button>
+        <a href="#"
+          ><img class="nav-logo" src="assets/logo-dark.svg" alt="Skilled logo"
+        /></a>
+        <a href="#" class="nav-btn">Get Started</a>
       </nav>
-      <section class="intro-section">
+    </header>
+
+    <main>
+      <section class="hero">
         <div class="intro">
           <h1 class="main-heading">Maximize skill, minimize budget</h1>
           <p class="main-paragraph">
             Our modern courses across a range of in-demand skills will give you
             the knowledge you need to live the life you want.
           </p>
-          <button class="header-button">Get Started</button>
+          <a href="#" class="hero-btn">Get Started</a>
         </div>
-        <div class="hero-image"></div>
+        <div class="hero-image">
+          <picture>
+            <source
+              media="(min-width:61.125rem)"
+              srcset="assets/image-hero-desktop.png"
+            />
+            <source
+              media="(min-width:48rem)"
+              srcset="assets/image-hero-tablet.png"
+            />
+            <img
+              src="assets/image-hero-mobile.png"
+              alt="A female holding a white tea cup up close"
+            />
+          </picture>
+        </div>
       </section>
+
       <section class="center-section">
-        <div class="section-tab">
-          <div class="center-heading-container animation">
+        <div class="container">
+          <div class="center-heading-container">
             <h2 class="center-heading">Check out our most popular courses!</h2>
           </div>
-          <div class="courses-div animation animation1">
+
+          <div class="course animation">
             <img class="icons" src="assets/icon-animation.svg" alt="" />
             <h3 class="course-headings">Animation</h3>
             <p class="course-paragraphs">
               Learn the latest animation techniques to create stunning motion
               design and captivate your audience.
             </p>
-            <p class="course-link"><a>Get Started</a></p>
+            <a href="#" class="course-link">Get Started</a>
           </div>
-        </div>
-        <div class="section-tab">
-          <div class="courses-div design">
+
+          <div class="course design">
             <img class="icons" src="assets/icon-design.svg" alt="" />
             <h3 class="course-headings">Design</h3>
             <p class="course-paragraphs">
               Create beautiful, usable interfaces to help shape the future of
               how the web looks.
             </p>
-            <p class="course-link"><a>Get Started</a></p>
+            <a href="#" class="course-link">Get Started</a>
           </div>
-          <div class="courses-div photography">
+
+          <div class="course photography">
             <img class="icons" src="assets/icon-photography.svg" alt="" />
             <h3 class="course-headings">Photography</h3>
             <p class="course-paragraphs">
               Explore critical fundamentals like lighting, composition, and
               focus to capture exceptional photos.
             </p>
-            <p class="course-link"><a>Get Started</a></p>
+            <a href="#" class="course-link">Get Started</a>
           </div>
-        </div>
-        <div class="section-tab">
-          <div class="courses-div cryptobiz crypto1">
+
+          <div class="course crypto">
             <img class="icons" src="assets/icon-crypto.svg" alt="" />
             <h3 class="course-headings">Crypto</h3>
             <p class="course-paragraphs">
               All you need to know to get started investing in crypto. Go from
               beginner to advanced with this 54 hour course.
             </p>
-            <p class="course-link"><a>Get Started</a></p>
+            <a href="#" class="course-link">Get Started</a>
           </div>
-          <div class="courses-div cryptobiz business">
+
+          <div class="course business">
             <img class="icons" src="assets/icon-business.svg" alt="" />
             <h3 class="course-headings">Business</h3>
             <p class="course-paragraphs">
               A step-by-step playbook to help you start, scale, and sustain your
               business without outside investment.
             </p>
-            <p class="course-link"><a>Get Started</a></p>
+            <a href="#" class="course-link">Get Started</a>
           </div>
         </div>
       </section>
-      <footer>
-        <img class="footer-logo" src="assets/logo-light.svg" alt="" />
-        <button class="footer-button">Get Started</button>
-      </footer>
     </main>
+
+    <footer>
+      <div class="ftr-btn-lg">
+        <a href="#">
+          <img
+            class="footer-logo"
+            src="assets/logo-light.svg"
+            alt="Skilled logo"
+          />
+        </a>
+        <a href="#" class="footer-btn">Get Started</a>
+      </div>
+    </footer>
   </body>
 </html>
