@@ -23,7 +23,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-![](/design/Screenshot.jpeg)
+![](/design/Desktop.png)
 ### Links
 
 - Solution URL: https://github.com/mkboris/Skilled-e-learning-landing-page
@@ -34,6 +34,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS Grid
 - Mobile-first workflow
 
 ### Continued development
@@ -43,5 +44,4 @@ Building more projects to improve my skills.
 ## Author
 
 - Frontend Mentor - [@mkboris](https://www.frontendmentor.io/profile/mkboris)
-- Twitter - [@mk_boris](https://www.twitter.com/mk_boris)
 
