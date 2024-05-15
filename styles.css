@@ -124,15 +124,15 @@ body {
 }
 
 header {
-  margin-top: 1rem;
-  margin-bottom: 2.375rem;
+  max-width: 69.375rem;
+  margin: 1rem auto 2.375rem;
+  padding: 0 1rem;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1rem;
 }
 
 .nav-logo,
@@ -149,6 +149,7 @@ nav {
   background: var(--heading-xl);
   border-radius: 1.75rem;
   padding: 0.5625rem 1.5rem;
+  transition: all 0.5s;
 }
 
 .nav-btn:hover {
@@ -165,6 +166,7 @@ nav {
 }
 
 .footer-btn {
+  transition: all 0.5s;
   background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
 }
 
@@ -176,6 +178,12 @@ nav {
   padding: 0 1rem;
   gap: 2.875rem;
   margin-bottom: 4.125rem;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .main-heading {
@@ -202,6 +210,7 @@ nav {
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   border-radius: 1.96875rem;
   padding: 0.9375rem 2.3125rem;
+  transition: all 0.5s;
 }
 
 .hero-btn:hover {
@@ -286,6 +295,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 69.375rem;
+  margin: 0 auto;
 }
 
 a {
@@ -296,9 +307,6 @@ a {
 @media screen and (min-width: 48rem) {
   header {
     margin-top: 1.5rem;
-  }
-
-  nav {
     padding: 0 2.5rem;
   }
 
@@ -306,7 +314,8 @@ a {
     flex-direction: row;
     padding: 0 0 0 2.5rem;
     gap: 2.0625rem;
-    margin-bottom: 5.8125rem;
+    max-width: 69.375rem;
+    margin: 0 auto 5.8125rem;
   }
 
   .intro {
@@ -330,6 +339,8 @@ a {
   }
 
   .center-section {
+    max-width: 69.375rem;
+    margin: 0 auto;
     padding: 0 2.5rem 5.375rem;
   }
 
@@ -346,10 +357,6 @@ a {
 
 /* DESKTOP STYLES */
 @media screen and (min-width: 61.125rem) {
-  nav {
-    padding: 0 10.3125rem;
-  }
-
   .nav-logo,
   .footer-logo {
     width: 7.125rem;
@@ -363,9 +370,8 @@ a {
   }
 
   .hero {
-    padding: 0 0 0 10.3125rem;
     gap: 10.125rem;
-    margin-bottom: 2.875rem;
+    margin-bottom: 6rem;
   }
 
   .intro {
@@ -398,7 +404,7 @@ a {
   }
 
   .center-section {
-    padding: 0 11.125rem 8.75rem 9.5rem;
+    padding: 0 2.5rem 8.75rem;
   }
 
   .center-heading-container {
@@ -426,9 +432,5 @@ a {
   .course-paragraphs {
     font-size: 1.125rem;
     line-height: 156%;
-  }
-
-  footer {
-    padding: 2rem 10.3125rem;
   }
 }

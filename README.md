@@ -1,17 +1,12 @@
 # Frontend Mentor - Skilled e-learning landing page solution
 
-This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Continued development](#continued-development)
 - [Author](#author)
-
-
 
 ## Overview
 
@@ -23,11 +18,13 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-![](/design/Screenshot.jpeg)
+
+![](/design/Desktop.png)
+
 ### Links
 
-- Solution URL: https://github.com/mkboris/Skilled-e-learning-landing-page
-- Live Site URL: https://mkboris.github.io/Skilled-e-learning-landing-page/
+- [Solution](https://github.com/mkboris/Skilled-e-learning-landing-page)
+- [Live Site](https://mkboris.github.io/Skilled-e-learning-landing-page/)
 
 ### Built with
 
@@ -36,12 +33,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-### Continued development
-
-Building more projects to improve my skills.
-
 ## Author
 
 - Frontend Mentor - [@mkboris](https://www.frontendmentor.io/profile/mkboris)
-- Twitter - [@mk_boris](https://www.twitter.com/mk_boris)
-
