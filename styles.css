@@ -329,13 +329,9 @@ a {
 
   .container {
     row-gap: 3.5rem;
-    column-gap: 0.6875rem;
+    column-gap: 1.875rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-  }
-
-  .course {
-    max-width: 21.1875rem;
   }
 
   .center-section {
@@ -346,7 +342,6 @@ a {
 
   .center-heading-container {
     padding: 3.5rem 1.3125rem 8.6875rem 2rem;
-    max-width: 21.1875rem;
     margin-bottom: 0;
   }
 
@@ -420,8 +415,7 @@ a {
   }
 
   .course {
-    max-width: 21.875rem;
-    padding: 4rem 1rem 2.5rem;
+    padding: 4rem 1.75rem 2.5rem;
   }
 
   .course-headings {
